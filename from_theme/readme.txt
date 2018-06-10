@@ -47,7 +47,7 @@ Thank you for understanding and respecting the license conditions.
 If more info needed, contact me at hello@bootstrapious.com.
 
 ---------------------
- GET IN TOUCH ;)
+ Personal Information ;)
 ---------------------
 
 https://twitter.com/bootstrapious | https://google.com/+Bootstrapious1 | https://www.facebook.com/bootstrapious | hello@bootstrapious.com
