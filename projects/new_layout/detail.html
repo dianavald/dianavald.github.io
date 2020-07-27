@@ -44,9 +44,11 @@
             align-items: center;
         }
 
+        /*Picture max dimensions*/
         img{
             width:100%;
-            max-width:500px;
+            max-height:600px;
+            max-width:400px;
         }
 
         .row {
@@ -112,36 +114,101 @@
 
                     <!-- *** CONTENT ***-->
 
-                    <!-- *** row-->
+                    <!-- *** SINGLE ROW-->
                     <div id="text_plus_gif_row" class="row content-column-content">
                         <div id="description_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-justify align-self-center">
                             <p>
+                                 <!-- *** text-->
                                 known printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
                         <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
                             <figure class="figure">
-                                <img src="monster_resize.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <!-- *** picture -->
+                                <!-- *** - for each image/gif change id -->
+                                <img id="elly1" src="elly_preview.gif" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption"><p>A caption for the above image.</p></figcaption>
                             </figure>
                         </div>
                     </div>
+                    <script>
+                        $(function() {
+                            $("#elly1").hover(
+                                function() {
+                                    $(this).attr("src", "elly.gif");
+                                },
+                                function() {
+                                    $(this).attr("src", "elly_preview.gif");
+                                }                         
+                            );                  
+                        });
+                    
+                    </script>
                     <!-- *** endrow-->
 
-                    <div id="text_plus_gif_row" class="row content-column-content">
+                     <!-- *** SINGLE ROW-->
+                     <div id="text_plus_gif_row" class="row content-column-content">
+                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                            <figure class="figure">
+                                <!-- *** picture -->
+                                <!-- *** - for each image/gif change id -->
+                                <img id="elly1" src="elly_preview.gif" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption"><p>A caption for the above image.</p></figcaption>
+                            </figure>
+                        </div>
                         <div id="description_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-justify align-self-center">
                             <p>
+                                 <!-- *** text-->
+                                known printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                    <script>
+                        $(function() {
+                            $("#elly1").hover(
+                                function() {
+                                    $(this).attr("src", "elly.gif");
+                                },
+                                function() {
+                                    $(this).attr("src", "elly_preview.gif");
+                                }                         
+                            );                  
+                        });
+                    
+                    </script>
+                    <!-- *** endrow-->
+
+                     <!-- *** SINGLE ROW-->
+                     <div id="text_plus_gif_row" class="row content-column-content">
+                        <div id="description_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-justify align-self-center">
+                            <p>
+                                 <!-- *** text-->
                                 known printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
                         <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
                             <figure class="figure">
-                                <img src="monster_resize.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <!-- *** picture -->
+                                <!-- *** - for each image/gif change id -->
+                                <img id="elly2" src="elly_preview.gif" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption"><p>A caption for the above image.</p></figcaption>
                             </figure>
                         </div>
                     </div>
-
+                    <script>
+                        $(function() {
+                            $("#elly2").hover(
+                                function() {
+                                    $(this).attr("src", "elly.gif");
+                                },
+                                function() {
+                                    $(this).attr("src", "elly_preview.gif");
+                                }                         
+                            );                  
+                        });
+                    
+                    </script>
+                    <!-- *** endrow-->
 
 
 
