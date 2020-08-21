@@ -35,13 +35,22 @@
             justify-content: center;
             align-items: center;
             vertical-align: middle;
-            padding: 10%;
+            padding: 6%;
         }
 
         #image_col{
             display: flex;
             justify-content: center;
             align-items: center;
+            padding: 6%;
+        }
+
+        #image_grid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 8%;
+            padding-left: 8%;
         }
 
         /*Picture max dimensions*/
@@ -113,38 +122,21 @@
                     <!-- *** CONTENT ***-->
                 
                     <!-- *** SINGLE ROW-->
-                    <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                    <div id="image_grid" class="row content-column-content">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
                             <img alt="" src="jar2.png" class="img-responsive">
 
                         </div>
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
-                            <img alt="" src="jar3.png" class="img-responsive">
-
-                        </div>
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
                             <img alt="" src="jar3.png" class="img-responsive">
 
                         </div>
                     </div>
-                    <script>
-                        $(function() {
-                            $("#elly1").hover(
-                                function() {
-                                    $(this).attr("src", "elly.gif");
-                                },
-                                function() {
-                                    $(this).attr("src", "elly_preview.gif");
-                                }                         
-                            );                  
-                        });
-                    
-                    </script>
                     <!-- *** endrow-->
 
                     <!-- *** CENTERED TEXT -->
                     <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="image_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justified">
+                        <div id="image_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
                             <p>
                                 <br>
                                 Considering the pollution produced by trash the concept of the project “the jar” was developed. 

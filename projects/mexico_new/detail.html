@@ -35,19 +35,30 @@
             justify-content: center;
             align-items: center;
             vertical-align: middle;
-            padding: 10%;
+            padding: 6%;
         }
 
         #image_col{
             display: flex;
             justify-content: center;
             align-items: center;
+            padding:6%
         }
+
+        #image_grid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
 
         /*Picture max dimensions*/
         video{
             max-height:600px;
             max-width:400px;
+            padding:6%
         }
 
         .row {
@@ -115,7 +126,7 @@
 
                     <!-- *** SINGLE ROW-->
                     <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="description_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-justify align-self-center">
+                        <div id="description_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 align-self-center">
                     
                                  <!-- *** text-->
                                  <p>
@@ -126,7 +137,7 @@
                                 </p>
 
                         </div>
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
 
                                 <!-- *** picture -->
                                 <!-- *** - for each image/gif change id -->
@@ -134,72 +145,33 @@
 
                         </div>
                     </div>
-                    <script>
-                        $(function() {
-                            $("#elly1").hover(
-                                function() {
-                                    $(this).attr("src", "elly.gif");
-                                },
-                                function() {
-                                    $(this).attr("src", "elly_preview.gif");
-                                }                         
-                            );                  
-                        });
-                    
-                    </script>
                     <!-- *** endrow-->
-<br>
-<br>
+                    <br>
+                    <br>
                      <!-- *** SINGLE ROW-->
-                     <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                     <div id="image_grid" class="row content-column-content">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
                             <img alt="" src="mex0.png" class="img-responsive">
 
                         </div>
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <img alt="" src="mex2.png" class="img-responsive">
 
                         </div>
                     </div>
-                    <script>
-                        $(function() {
-                            $("#elly1").hover(
-                                function() {
-                                    $(this).attr("src", "elly.gif");
-                                },
-                                function() {
-                                    $(this).attr("src", "elly_preview.gif");
-                                }                         
-                            );                  
-                        });
-                    
-                    </script>
                     <!-- *** endrow-->
 
                     <!-- *** SINGLE ROW-->
-                    <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                    <div id="image_grid" class="row content-column-content">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
                             <img alt="" src="mex4.png" class="img-responsive">
 
                         </div>
-                        <div id="image_col" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center">
+                        <div id="image_ingrid" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
                             <img alt="" src="mex3.png" class="img-responsive">
 
                         </div>
                     </div>
-                    <script>
-                        $(function() {
-                            $("#elly1").hover(
-                                function() {
-                                    $(this).attr("src", "elly.gif");
-                                },
-                                function() {
-                                    $(this).attr("src", "elly_preview.gif");
-                                }                         
-                            );                  
-                        });
-                    
-                    </script>
                     <!-- *** endrow-->
 
                      
