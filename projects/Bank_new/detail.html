@@ -36,6 +36,8 @@
             align-items: center;
             vertical-align: middle;
             padding-right: 6%;
+            padding-left: 6%;
+            padding-top: 6%;
         }
 
         #image_col{
@@ -48,12 +50,8 @@
 
         /*Picture max dimensions*/
         video{
-            max-height:600px;
-            max-width:400px;
-            padding-right: 6%;
-            padding-right: %;
-            padding-right: 6%;
-
+            max-height:900px;
+            max-width:800px;
         }
 
         .row {
@@ -71,7 +69,6 @@
     </style>
 
 </head>
-<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
 
 <body>
     <div id="all">
@@ -113,52 +110,40 @@
                     
                     <div class="row content-column-content">
                         <div id="title" class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                            <h1>Next Meal</h1>
+                            <h1>Bank</h1>
                         </div>
                     </div>
 
-                    <div id="image_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-
-                        <!-- *** picture -->
-                        <!-- *** - for each image/gif change id -->
-                        <video autoplay loop muted playsinline src="cucinavideo.mp4"></video>
-
-                </div>
 
                     <!-- *** CONTENT ***-->
 
-                    <!-- *** SINGLE ROW-->
-                    <div id="text_plus_gif_row" class="row content-column-content">
-                        <div id="description_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify align-self-center">
-                    
-                                 <!-- *** text-->
-                                 <p>
-                                    One of the questions more people that live alone ask themselves at home is "What am I going to eat today?"
-                                    <br>
-                                    <br>
-                                    In collaboration with a specialist on AI we decided to create a way to solve this question easily. 
-                                    So, when you provide (in an easy way)the complete list of your food reserv it will always have an answer to solve your problem. 
-                                    <br>
-                                    <br>
-                                    Next Meal will always give you the best meal making you stick to your ideal diet and your cooking preferences. 
-                                    If you have one or two missing ingredients it will also suggest you to buy them for further recipies. 
-                                    <br>
-                                    <br>
-                                    This project is under construction, will be avaliable in the next months.
-                                    
-                                </p>
+
+                     <!-- *** SINGLE ROW-->
+                     <div id="text_plus_gif_row" class="row content-column-content">
+                        <div id="image_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                <video autoplay loop muted playsinline src="Bank.mp4"></video>
 
                         </div>
+                        
+                    </div>
+                     <!-- *** endrow-->
+
+
+                     
+
+                    <!-- *** CENTERED TEXT 
+                    <div id="text_plus_gif_row" class="row content-column-content">
                         <div id="image_col" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                            <p>
+                                Rabbit's user test with children from 5 to 8 years old.
+                                <br>
+                                <br>
 
-                                <!-- *** test lottie file .json -->
-                                <lottie-player src="cucina.json" background="transparent" renderer="canvas" speed="1" style="height: 500px;"  loop  autoplay></lottie-player>
 
-                                <script>
-                                    const player = document.querySelector('lottie-player');
-                                    player.seek("50%")
-                                    </script>
-
+                                <video autoplay loop muted playsinline src=></video>
+                            </p>    
+                        </div>
+                    </div>  -->
                       
 
 
